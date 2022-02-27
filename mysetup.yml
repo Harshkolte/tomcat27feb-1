@@ -1,5 +1,5 @@
 ---
-- myhosts: mywebserver
-  become: yes
-  roles:
-    - {role: tomcat1ubuntu , when: ansible_os_family =="Debian"} 
+ - myhosts: mywebserver
+   become: yes
+   roles:
+     - {role: tomcat1ubuntu , when: ansible_os_family =="Debian"} 
