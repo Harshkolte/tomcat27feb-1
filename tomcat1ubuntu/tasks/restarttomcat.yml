@@ -1,5 +1,5 @@
 ---
-- name: restart tomcat
+- name: restart tomcat.yml
   systemd:
        name: tomcat
        state: restarted
