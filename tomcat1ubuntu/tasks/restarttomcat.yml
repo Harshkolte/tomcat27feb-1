@@ -1,6 +1,6 @@
 ---
-- name: restart tomcat
-  service:
-       name: tomcat
-       state: restarted
+- name: restart tomcat 
+  systemd:
+    name: tomcat
+    state: restarted
       
