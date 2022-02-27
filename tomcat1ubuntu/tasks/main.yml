@@ -6,5 +6,6 @@
  - include_tasks: servicefile.yml
  - include_tasks: starttomcat.yml
  - include_tasks: tomcatwebinterface.yml
- - include_tasks: deployjavaapplication.yml
  - include_tasks: restart.yml
+ - include_tasks: deployjavaapplication.yml
+ 
