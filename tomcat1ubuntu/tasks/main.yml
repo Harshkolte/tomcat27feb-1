@@ -1,2 +1,2 @@
 ---
-# tasks file for tomcat1ubuntu
+ - include_tasks: installjava.yml
